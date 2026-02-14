@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Copy of Gemini Pulse Template",
+  "description": "A high-performance, aesthetically pleasing React template integrated with the Gemini API, featuring a modern dashboard layout and responsive design.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
