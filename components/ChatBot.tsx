@@ -45,7 +45,7 @@ const ChatBot: React.FC<ChatBotProps> = ({
       className={`fixed z-50 flex flex-col items-end ${isChatOpen ? 'w-[90vw] md:w-[400px]' : 'w-16'} transition-all duration-300` }
     >
       {isChatOpen && (
-        <div className="w-full h-[500px] md:h-[600px] max-h-[80vh] bg-slate-900/98 backdrop-blur-3xl border border-slate-700/50 rounded-[2rem] md:rounded-[3rem] shadow-[0_40px_80px_-20px_rgba(0,0,0,0.7)] mb-4 flex flex-col overflow-hidden animate-in slide-in-from-bottom-8 duration-300">
+        <div className="w-full h-[500px] md:h-[450px] max-h-[65vh] bg-slate-900/98 backdrop-blur-3xl border border-slate-700/50 rounded-[2rem] md:rounded-[3rem] shadow-[0_40px_80px_-20px_rgba(0,0,0,0.7)] mb-4 flex flex-col overflow-hidden animate-in slide-in-from-bottom-8 duration-300">
           <div onMouseDown={handleMouseDown} onTouchStart={handleMouseDown} className="p-5 md:p-7 border-b border-slate-800 flex items-center justify-between bg-indigo-600/10 cursor-grab active:cursor-grabbing select-none touch-none">
             <div className="flex items-center space-x-3 pointer-events-none">
               <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-600/20">
